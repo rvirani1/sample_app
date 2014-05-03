@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2820083693">
+  <component name="DataSourceManagerImpl" format="xml" hash="1108997843">
     <data-source source="LOCAL" name="Rails sample_app: development" uuid="da4de682-907b-4764-bdaa-237ef570b203">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sample_app_dev</jdbc-url>
+      <user-name>riaznvirani</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails sample_app: test" uuid="a5bca5e6-2533-4554-a9c1-ef9e0589b73f">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sample_app_test</jdbc-url>
+      <user-name>riaznvirani</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails sample_app: production" uuid="8c3ec719-76e5-4e46-bff9-d3426a6076b6">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sample_app_prod</jdbc-url>
+      <user-name>riaznvirani</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
       <libraries />
     </data-source>
   </component>
