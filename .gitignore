@@ -16,4 +16,7 @@
 /tmp
 
 # Ignore database as well
-/config/database.yml
+# /config/database.yml
+
+# Ignore workspace XML
+/.idea/workspace.xml
