@@ -19,4 +19,4 @@
 # /config/database.yml
 
 # Ignore workspace XML
-/.idea/workspace.xml
+/.idea
